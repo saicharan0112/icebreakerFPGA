@@ -1,0 +1,15 @@
+ 2004  git clone https://github.com/YosysHQ/icestorm.git icestorm
+ 2005  cd icestorm/
+ 2006  ll
+ 2007  make -j$(nproc)
+ 2008  sudo make install
+ 2009  cd ..
+ 2010  git clone https://github.com/YosysHQ/nextpnr nextpnr
+ 2011  cd nextpnr/
+ 2012  cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
+ 2013  sudo apt-get install libboost-all-dev
+ 2014  cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
+ 2015  sudo apt install libeigen3-dev
+ 2016  cmake -DARCH=ice40 -DCMAKE_INSTALL_PREFIX=/usr/local .
+ 2017  make -j$(nproc)
+ 2018  sudo make install
