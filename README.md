@@ -15,8 +15,9 @@ The `icebreaker/` folder contains the files required to test the "hello world" v
 
 **Content** - `ACTION=="add", ATTR{idVendor}=="0403", ATTR{idProduct}=="6010", MODE:="666"`
 
-Now go inside the icebreaker directory and run `make all` and `make prog` to create binary and to flash on to the FPGA respectively.
-You can run `make clean` to remove all generated files in the process and start over with the verilog file
+Now go inside the icebreaker directory `make prog` to create binary and to flash on to the FPGA respectively.
+
+You can run `make clean` to remove all generated files in the process, and run `make all` to create them again or if you want to start over with the updated verilog file.
 
 
 
