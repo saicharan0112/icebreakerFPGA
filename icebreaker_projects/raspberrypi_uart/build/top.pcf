@@ -1,0 +1,5 @@
+set_io uart_tx 2
+set_io uart_rx 47
+set_io user_led0 27
+set_io user_led1 25
+set_io clk12 35
